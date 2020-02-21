@@ -1,0 +1,8 @@
+.navigation {
+    margin: 2em;
+}
+
+.navigation__link {
+    padding: 0 1em 0 1em;
+    font-size: 21px;
+}

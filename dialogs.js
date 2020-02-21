@@ -11,13 +11,15 @@ const initializeDetailButtonEvents = () => {
             }
         )
     }
-    // CAN'T TOUCH THIS - END
+
+}
+// CAN'T TOUCH THIS - END
 
 
-    // You will be writing code below this line
+// You will be writing code below this line
 
-    // Show Bart's details when the button is clicked
-    document.querySelector("#button--bart").addEventListener(
+// Show Bart's details when the button is clicked
+document.querySelector("#button--bart").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#details--bart")
@@ -37,14 +39,14 @@ const initializeDetailButtonEvents = () => {
             const theDialog = document.querySelector("#details--frank")
             theDialog.showModal()
         }
-    )
-    document.querySelector("#button--ben").addEventListener(
+        )
+        document.querySelector("#button--ben").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#details--ben")
             theDialog.showModal()
         }
-    )
+        )
     document.querySelector("#button--lilly").addEventListener(
         "click",
         theClickEvent => {
@@ -53,12 +55,10 @@ const initializeDetailButtonEvents = () => {
         }
     )
     document.querySelector("#button--susan").addEventListener(
-        "click",
+        "click", 
         theClickEvent => {
             const theDialog = document.querySelector("#details--susan")
             theDialog.showModal()
         }
     )
-
-}
-export default initializeDetailButtonEvents
+    export default initializeDetailButtonEvents

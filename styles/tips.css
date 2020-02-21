@@ -1,0 +1,8 @@
+.tipList {
+    flex-basis: 20%;
+    border: 2px solid firebrick 
+}
+
+.tip {
+    margin: 1rem 0 2rem 0;
+}

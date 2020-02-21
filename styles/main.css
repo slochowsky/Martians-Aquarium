@@ -1,7 +1,10 @@
+@import 'nav.css';
+@import 'fish.css';
+@import 'tips.css';
+
 body {
     background: lightslategray;
 }
-
 
 .container {
     display: flex;
@@ -9,43 +12,6 @@ body {
     justify-content: space-between;
 }
 
-.navigation {
-    margin: 2em;
-}
-
-.navigation__link {
-    padding: 0 1em 0 1em;
-    font-size: 21px;
-}
-
-.fishList {
-    flex-basis: 65%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fish__image {
-    width: 10rem;
-    height: 10rem;
-}
-
-.tipList {
-    flex-basis: 20%;
-    border: 2px solid firebrick 
-}
-
-.tip {
-    margin: 1rem 0 2rem 0;
-}
-
-.fish {
-    border: 3px solid goldenrod;
-    flex-wrap: wrap;
-    margin: 20px;
-
-}
-
 .bordered {
     justify-content: space-evenly;
 }
-
