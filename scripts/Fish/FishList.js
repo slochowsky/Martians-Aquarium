@@ -9,20 +9,19 @@ const FishList = () => {
 const contentTarget = document.querySelector(".fishList")
 const fishObjectsArray = useFish()
 
-contentTarget.innerHTML += `
-        <article class="fishList">
-        ${fishObjectsArray.map((currentFish) => {
-                return Fish(currentFish)
-            }
-            ).join("")
-        }
-        </article>
-        `
-    }
+for (const fishObject of fishObjectsArray) {
+contentTarget.innerHTML += Fish(fishObject)
+}
+}
+
 export default FishList
-//     for (const fishObject of fishObjectsArray) {
+// contentTarget.innerHTML += `
+//         <article class="fishList">
+//         ${fishObjectsArray.map((currentFish) => {
+//                 return Fish(currentFish)
+//             }
+//             ).join("")
+//         }
+//         </article>
+//         `
 
-//         const fishHTMLRepresentation = Fish(fishObject)
-
-//         contentTarget.innerHTML += fishHTMLRepresentation
-// }
