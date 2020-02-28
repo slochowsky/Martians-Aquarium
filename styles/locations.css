@@ -1,0 +1,11 @@
+.locations {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location {
+    border: 3px solid palegoldenrod;
+    flex-wrap: wrap;
+    margin: 20px;
+}
