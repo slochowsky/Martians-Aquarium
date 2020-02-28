@@ -26,39 +26,3 @@ const initializeDetailButtonEvents = () => {
             }
         }
     export default initializeDetailButtonEvents
-    
-    // document.querySelector("#button--jim").addEventListener(
-    //     "click",
-    //     theClickEvent => {
-    //         const theDialog = document.querySelector("#details--jim")
-    //         theDialog.showModal()
-    //     }
-    // )
-    // document.querySelector("#button--frank").addEventListener(
-    //     "click",
-    //     theClickEvent => {
-    //         const theDialog = document.querySelector("#details--frank")
-    //         theDialog.showModal()
-    //     }
-    //     )
-    //     document.querySelector("#button--ben").addEventListener(
-    //     "click",
-    //     theClickEvent => {
-    //         const theDialog = document.querySelector("#details--ben")
-    //         theDialog.showModal()
-    //     }
-    //     )
-    // document.querySelector("#button--lilly").addEventListener(
-    //     "click",
-    //     theClickEvent => {
-    //         const theDialog = document.querySelector("#details--lilly")
-    //         theDialog.showModal()
-    //     }
-    // )
-    // document.querySelector("#button--susan").addEventListener(
-    //     "click", 
-    //     theClickEvent => {
-    //         const theDialog = document.querySelector("#details--susan")
-    //         theDialog.showModal()
-    //     }
-    // )

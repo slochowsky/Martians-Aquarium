@@ -76,11 +76,11 @@ export const useFish = () => {
     return fishCollection.slice()
 }
 
-
+// the empty arrays below will have the filtered data "pushed" in the the correct one.
 const holyFish = []
 const theSoldierFish = []
 const regularFish = []
-
+// below I looped through the fishCollection that had all my fish data in it. using dot notation I targeted the length of each fish and put the fish that are multiples of 3 into the "holyFish array".
 export const mostHolyFish = () => {
     for (const fish of fishCollection) {
         if (fish.length % 3 === 0)
@@ -88,9 +88,12 @@ export const mostHolyFish = () => {
     }
     return holyFish
 }
+// MAKE SURE TO INVOKE THE FUNCTION!!!!!!!!!!!!
 mostHolyFish()
+// console logged the array that had my new collection of fish so I can see if I got the correct data.
 console.log("these fish are a multiple of 3", holyFish)
 
+// below I looped through the fishCollection that had all my fish data in it. using dot notation I targeted the length of each fish and put the fish that are multiples of 5 into the "theSoldierFish array".
 export const soldierFish = () => {
     for (const fish of fishCollection) {
         if (fish.length % 5 === 0)
@@ -98,10 +101,11 @@ export const soldierFish = () => {
     }
     return theSoldierFish
 }
-
+// MAKE SURE TO INVOKE THE FUNCTION!!!!!!!!!!!!
 soldierFish()
+// console logged the array that had my new collection of fish so I can see if I got the correct data.
 console.log("these fish are a multiple of 5", theSoldierFish)
-
+// below I looped through the fishCollection that had all my fish data in it. using dot notation I targeted the length of each fish and put the fish that are NPT multiples of 3 OR 5 into the "regularFish array".
 export const nonHolyFish = () => {
     for (const fish of fishCollection) {
         if (fish.length % 3 !== 0 && fish.length % 5 !== 0)
@@ -109,6 +113,7 @@ export const nonHolyFish = () => {
         }
     return regularFish
 }
-
+// MAKE SURE TO INVOKE THE FUNCTION!!!!!!!!!!!!
 nonHolyFish()
+// console logged the array that had my new collection of fish so I can see if I got the correct data.
 console.log("these fish are not a multiple of 5 OR 3", regularFish)
