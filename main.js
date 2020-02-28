@@ -10,6 +10,6 @@ tipListComponent()
 const arrayOfTheFishObjects = useFish()
 console.log("all of the fish:", arrayOfTheFishObjects)
 
-for (const currentFishObject of arrayOfTheFishObjects) (
-    console.log(currentFishObject)
-)
+// for (const currentFishObject of arrayOfTheFishObjects) (
+//     console.log(currentFishObject)
+//     )
