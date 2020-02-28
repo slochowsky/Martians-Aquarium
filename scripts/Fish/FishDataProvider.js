@@ -104,7 +104,7 @@ console.log("these fish are a multiple of 5", theSoldierFish)
 
 export const nonHolyFish = () => {
     for (const fish of fishCollection) {
-        if (fish.length !== 3 && fish.length !== 5)
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0)
                 regularFish.push(fish)
         }
     return regularFish
@@ -112,17 +112,3 @@ export const nonHolyFish = () => {
 
 nonHolyFish()
 console.log("these fish are not a multiple of 5 OR 3", regularFish)
-
-
-
-    // 3, 6, 9, 12, etc... fish
-
-    // export const soldierFish = () => {
-    //     // 5, 10, 15, 20, 25, etc... fish
-    //     return soldiers
-    // }
-
-    // export const nonHolyFish = () => {
-    //     // Any fish not a multiple of 3 or 5
-    //     return regularFish
-    // }
