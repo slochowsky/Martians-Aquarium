@@ -12,7 +12,7 @@ const initializeDetailButtonEvents = () => {
             )
         }
 
-    const allDetailButtons = document.querySelectorAll("button[id^='fish--']")
+    const allDetailButtons = document.querySelectorAll("button[id^='button--']")
                 // Show Bart's details when the button is clicked
         for (const btn of allDetailButtons) {
             btn.addEventListener(

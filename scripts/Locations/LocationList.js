@@ -9,10 +9,8 @@ const LocationListComponent = () => {
 
 
     for (const location of locations) {
-        // const locationHTML = LocationComponent(location)
         contentElement.innerHTML += LocationComponent(location)
 }
-
 }
 
 export default LocationListComponent

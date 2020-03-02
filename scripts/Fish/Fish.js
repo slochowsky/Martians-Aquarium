@@ -5,7 +5,7 @@ const Fish = (fishObject) => {
                 <img class="fish__image" src="${fishObject.image}" alt="">
             </div>
             <div class="fish__name">${fishObject.name}</div>
-            <button id="fish--${fishObject.name}">Details</button>
+            <button id="button--${fishObject.name}">Details</button>
 
             <dialog class="dialog--fish" id="details--${fishObject.name}">
                 <div>Length: ${fishObject.length}</div>
